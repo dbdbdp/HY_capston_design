@@ -1,0 +1,31 @@
+[1.840s] Invoking command in '/home/teamleafia/ros2_mer/src/robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/teamleafia/ros2_mer/build/robot_control/build install --record /home/teamleafia/ros2_mer/build/robot_control/install.log --single-version-externally-managed install_data
+[2.284s] running egg_info
+[2.315s] writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+[2.315s] writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+[2.318s] writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+[2.319s] writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+[2.319s] writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+[2.384s] reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[2.385s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[2.386s] running build
+[2.386s] running build_py
+[2.386s] copying robot_control/pid_controller_node.py -> /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control
+[2.387s] running install
+[2.397s] running install_lib
+[2.429s] copying /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control/pid_controller_node.py -> /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control
+[2.431s] byte-compiling /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control/pid_controller_node.py to pid_controller_node.cpython-312.pyc
+[2.433s] running install_data
+[2.433s] running install_egg_info
+[2.467s] removing '/home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control-0.0.1-py3.12.egg-info' (and everything under it)
+[2.468s] Copying ../../build/robot_control/robot_control.egg-info to /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control-0.0.1-py3.12.egg-info
+[2.469s] running install_scripts
+[2.692s] Installing encoder_publisher_node script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[2.693s] Installing motor_controller_node script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[2.694s] Installing move_distance_node script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[2.695s] Installing pid_controller_node script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[2.696s] Installing scissor_lift_controller script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[2.696s] Installing teleop_keyboard_node script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[2.697s] Installing teleop_keyboard_node2 script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[2.698s] Installing teleop_keyboard_node4 script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[2.699s] writing list of installed files to '/home/teamleafia/ros2_mer/build/robot_control/install.log'
+[2.816s] Invoked command in '/home/teamleafia/ros2_mer/src/robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/teamleafia/ros2_mer/build/robot_control/build install --record /home/teamleafia/ros2_mer/build/robot_control/install.log --single-version-externally-managed install_data

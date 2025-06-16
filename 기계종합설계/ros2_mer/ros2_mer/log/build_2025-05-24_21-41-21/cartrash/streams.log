@@ -1,0 +1,15 @@
+[1.895s] Invoking command in '/home/teamleafia/ros2_mer/build/cartrash': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/cartrash/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/cartrash/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/teamleafia/ros2_mer/build/cartrash/build --no-deps symlink_data
+[2.436s] running develop
+[2.768s] running egg_info
+[2.799s] writing cartrash.egg-info/PKG-INFO
+[2.799s] writing dependency_links to cartrash.egg-info/dependency_links.txt
+[2.799s] writing requirements to cartrash.egg-info/requires.txt
+[2.799s] writing top-level names to cartrash.egg-info/top_level.txt
+[2.866s] reading manifest file 'cartrash.egg-info/SOURCES.txt'
+[2.867s] writing manifest file 'cartrash.egg-info/SOURCES.txt'
+[2.901s] running build_ext
+[2.901s] Creating /home/teamleafia/ros2_mer/install/cartrash/lib/python3.12/site-packages/cartrash.egg-link (link to .)
+[2.902s] 
+[2.902s] Installed /home/teamleafia/ros2_mer/build/cartrash
+[2.902s] running symlink_data
+[3.033s] Invoked command in '/home/teamleafia/ros2_mer/build/cartrash' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/cartrash/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/cartrash/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/teamleafia/ros2_mer/build/cartrash/build --no-deps symlink_data

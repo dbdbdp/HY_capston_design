@@ -1,0 +1,19 @@
+[2.830s] Invoking command in '/home/teamleafia/ros2_mer/build/marker_align_2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/marker_align_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/teamleafia/ros2_mer/build/marker_align_2/build --no-deps symlink_data --force
+[4.142s] running develop
+[5.041s] running egg_info
+[5.176s] writing marker_align_2.egg-info/PKG-INFO
+[5.177s] writing dependency_links to marker_align_2.egg-info/dependency_links.txt
+[5.179s] writing entry points to marker_align_2.egg-info/entry_points.txt
+[5.184s] writing requirements to marker_align_2.egg-info/requires.txt
+[5.184s] writing top-level names to marker_align_2.egg-info/top_level.txt
+[5.431s] reading manifest file 'marker_align_2.egg-info/SOURCES.txt'
+[5.433s] writing manifest file 'marker_align_2.egg-info/SOURCES.txt'
+[5.512s] running build_ext
+[5.513s] Creating /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker-align-2.egg-link (link to .)
+[5.514s] Installing marker_align_node2 script to /home/teamleafia/ros2_mer/install/marker_align_2/lib/marker_align_2
+[5.514s] 
+[5.518s] Installed /home/teamleafia/ros2_mer/build/marker_align_2
+[5.523s] running symlink_data
+[5.524s] symbolically linking /home/teamleafia/ros2_mer/build/marker_align_2/resource/marker_align_2 -> /home/teamleafia/ros2_mer/install/marker_align_2/share/ament_index/resource_index/packages
+[5.524s] symbolically linking /home/teamleafia/ros2_mer/build/marker_align_2/package.xml -> /home/teamleafia/ros2_mer/install/marker_align_2/share/marker_align_2
+[6.067s] Invoked command in '/home/teamleafia/ros2_mer/build/marker_align_2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/marker_align_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/teamleafia/ros2_mer/build/marker_align_2/build --no-deps symlink_data --force

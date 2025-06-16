@@ -1,0 +1,17 @@
+{
+    "ros.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/home/teamleafia/ros2_mer/install/plant_transport/lib/python3.12/site-packages",
+        "/home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages",
+        "/home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages",
+        "/home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/teamleafia/ros2_mer/install/plant_transport/lib/python3.12/site-packages",
+        "/home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages",
+        "/home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages",
+        "/home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

@@ -1,0 +1,20 @@
+[2.752s] Invoking command in '/home/teamleafia/ros2_mer/build/pump_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/pump_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/teamleafia/ros2_mer/build/pump_control/build --no-deps symlink_data --force
+[3.375s] running develop
+[3.728s] running egg_info
+[3.766s] writing pump_control.egg-info/PKG-INFO
+[3.767s] writing dependency_links to pump_control.egg-info/dependency_links.txt
+[3.768s] writing entry points to pump_control.egg-info/entry_points.txt
+[3.769s] writing requirements to pump_control.egg-info/requires.txt
+[3.769s] writing top-level names to pump_control.egg-info/top_level.txt
+[3.837s] reading manifest file 'pump_control.egg-info/SOURCES.txt'
+[3.838s] writing manifest file 'pump_control.egg-info/SOURCES.txt'
+[3.872s] running build_ext
+[3.872s] Creating /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump-control.egg-link (link to .)
+[3.873s] Installing pump_node script to /home/teamleafia/ros2_mer/install/pump_control/lib/pump_control
+[3.874s] Installing pump_testnode script to /home/teamleafia/ros2_mer/install/pump_control/lib/pump_control
+[3.874s] 
+[3.875s] Installed /home/teamleafia/ros2_mer/build/pump_control
+[3.875s] running symlink_data
+[3.876s] symbolically linking /home/teamleafia/ros2_mer/build/pump_control/resource/pump_control -> /home/teamleafia/ros2_mer/install/pump_control/share/ament_index/resource_index/packages
+[3.876s] symbolically linking /home/teamleafia/ros2_mer/build/pump_control/package.xml -> /home/teamleafia/ros2_mer/install/pump_control/share/pump_control
+[4.048s] Invoked command in '/home/teamleafia/ros2_mer/build/pump_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/pump_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/teamleafia/ros2_mer/build/pump_control/build --no-deps symlink_data --force

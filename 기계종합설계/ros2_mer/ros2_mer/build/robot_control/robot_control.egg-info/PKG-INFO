@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: robot-control
+Version: 0.0.1
+Summary: Motor control and encoder feedback for plant transport robot.
+Maintainer: teamleafia
+Maintainer-email: teamleafia@todo.todo
+License: MIT

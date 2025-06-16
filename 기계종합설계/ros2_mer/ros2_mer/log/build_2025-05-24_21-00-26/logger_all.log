@@ -1,0 +1,430 @@
+[0.162s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.162s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8cbd8140>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8cdb8050>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8cdb8050>>, mixin_verb=('build',))
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.222s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/teamleafia/ros2_mer'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_detector' with type 'ros.ament_python' and name 'aruco_detector'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector_yj_pkg_2) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector_yj_pkg_2) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector_yj_pkg_2) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector_yj_pkg_2) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector_yj_pkg_2) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector_yj_pkg_2) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector_yj_pkg_2) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector_yj_pkg_2) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detector_yj_pkg_2) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_detector_yj_pkg_2' with type 'ros.ament_python' and name 'aruco_detector_yj_pkg_2'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartrash) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartrash) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartrash) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartrash) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartrash) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartrash) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartrash) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartrash) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartrash) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartrash' with type 'ros.ament_python' and name 'cartrash'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_align_2) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_align_2) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_align_2) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_align_2) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_align_2) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_align_2) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_align_2) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_align_2) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/marker_align_2) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/marker_align_2' with type 'ros.ament_python' and name 'marker_align_2'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_transport) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_transport) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_transport) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_transport) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_transport) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_transport) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_transport) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_transport) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_transport) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/plant_transport' with type 'ros.ament_python' and name 'plant_transport'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_control) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_control) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_control) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_control) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_control) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_control) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_control) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_control) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_control) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pump_control' with type 'ros.ament_python' and name 'pump_control'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ros'
+[0.287s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_control' with type 'ros.ament_python' and name 'robot_control'
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.341s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/teamleafia/ros2_mer/install
+[0.343s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/teamleafia/slam_ws/install
+[0.344s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/teamleafia/ros2_mot/install
+[0.347s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 416 installed packages in /opt/ros/jazzy
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'cmake_target' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.482s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/teamleafia/ros2_mer/build/aruco_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/teamleafia/ros2_mer/install/aruco_detector', 'merge_install': False, 'path': '/home/teamleafia/ros2_mer/src/aruco_detector', 'symlink_install': False, 'test_result_base': None}
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_yj_pkg_2' build argument 'cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_yj_pkg_2' build argument 'cmake_target' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_yj_pkg_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_yj_pkg_2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_yj_pkg_2' build argument 'cmake_clean_first' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_yj_pkg_2' build argument 'cmake_force_configure' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_yj_pkg_2' build argument 'ament_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_yj_pkg_2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'aruco_detector_yj_pkg_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.483s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_detector_yj_pkg_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2', 'merge_install': False, 'path': '/home/teamleafia/ros2_mer/src/aruco_detector_yj_pkg_2', 'symlink_install': False, 'test_result_base': None}
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'cartrash' build argument 'cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'cartrash' build argument 'cmake_target' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'cartrash' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'cartrash' build argument 'cmake_clean_cache' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'cartrash' build argument 'cmake_clean_first' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'cartrash' build argument 'cmake_force_configure' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'cartrash' build argument 'ament_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'cartrash' build argument 'catkin_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'cartrash' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.484s] DEBUG:colcon.colcon_core.verb:Building package 'cartrash' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/teamleafia/ros2_mer/build/cartrash', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/teamleafia/ros2_mer/install/cartrash', 'merge_install': False, 'path': '/home/teamleafia/ros2_mer/src/cartrash', 'symlink_install': False, 'test_result_base': None}
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'marker_align_2' build argument 'cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'marker_align_2' build argument 'cmake_target' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'marker_align_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'marker_align_2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'marker_align_2' build argument 'cmake_clean_first' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'marker_align_2' build argument 'cmake_force_configure' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'marker_align_2' build argument 'ament_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'marker_align_2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'marker_align_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.485s] DEBUG:colcon.colcon_core.verb:Building package 'marker_align_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/teamleafia/ros2_mer/build/marker_align_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/teamleafia/ros2_mer/install/marker_align_2', 'merge_install': False, 'path': '/home/teamleafia/ros2_mer/src/marker_align_2', 'symlink_install': False, 'test_result_base': None}
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pump_control' build argument 'cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pump_control' build argument 'cmake_target' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pump_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pump_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pump_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pump_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pump_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pump_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pump_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.486s] DEBUG:colcon.colcon_core.verb:Building package 'pump_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/teamleafia/ros2_mer/build/pump_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/teamleafia/ros2_mer/install/pump_control', 'merge_install': False, 'path': '/home/teamleafia/ros2_mer/src/pump_control', 'symlink_install': False, 'test_result_base': None}
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.488s] DEBUG:colcon.colcon_core.verb:Building package 'robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/teamleafia/ros2_mer/build/robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/teamleafia/ros2_mer/install/robot_control', 'merge_install': False, 'path': '/home/teamleafia/ros2_mer/src/robot_control', 'symlink_install': False, 'test_result_base': None}
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'plant_transport' build argument 'cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'plant_transport' build argument 'cmake_target' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'plant_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'plant_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'plant_transport' build argument 'cmake_clean_first' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'plant_transport' build argument 'cmake_force_configure' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'plant_transport' build argument 'ament_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'plant_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'plant_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.489s] DEBUG:colcon.colcon_core.verb:Building package 'plant_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/teamleafia/ros2_mer/build/plant_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/teamleafia/ros2_mer/install/plant_transport', 'merge_install': False, 'path': '/home/teamleafia/ros2_mer/src/plant_transport', 'symlink_install': False, 'test_result_base': None}
+[0.490s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.492s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.493s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/teamleafia/ros2_mer/src/aruco_detector' with build type 'ament_python'
+[0.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_detector', 'ament_prefix_path')
+[0.497s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/aruco_detector/share/aruco_detector/hook/ament_prefix_path.ps1'
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/teamleafia/ros2_mer/install/aruco_detector/share/aruco_detector/hook/ament_prefix_path.dsv'
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/aruco_detector/share/aruco_detector/hook/ament_prefix_path.sh'
+[0.504s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.505s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.518s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/teamleafia/ros2_mer/src/aruco_detector_yj_pkg_2' with build type 'ament_python'
+[0.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_detector_yj_pkg_2', 'ament_prefix_path')
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/share/aruco_detector_yj_pkg_2/hook/ament_prefix_path.ps1'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/share/aruco_detector_yj_pkg_2/hook/ament_prefix_path.dsv'
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/share/aruco_detector_yj_pkg_2/hook/ament_prefix_path.sh'
+[0.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.543s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/teamleafia/ros2_mer/src/marker_align_2' with build type 'ament_python'
+[0.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('marker_align_2', 'ament_prefix_path')
+[0.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/marker_align_2/share/marker_align_2/hook/ament_prefix_path.ps1'
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/teamleafia/ros2_mer/install/marker_align_2/share/marker_align_2/hook/ament_prefix_path.dsv'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/marker_align_2/share/marker_align_2/hook/ament_prefix_path.sh'
+[0.553s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.554s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.566s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/teamleafia/ros2_mer/src/pump_control' with build type 'ament_python'
+[0.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('pump_control', 'ament_prefix_path')
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/pump_control/share/pump_control/hook/ament_prefix_path.ps1'
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/teamleafia/ros2_mer/install/pump_control/share/pump_control/hook/ament_prefix_path.dsv'
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/pump_control/share/pump_control/hook/ament_prefix_path.sh'
+[0.571s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.571s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.040s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/teamleafia/ros2_mer/src/aruco_detector'
+[1.040s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.040s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.576s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/teamleafia/ros2_mer/src/aruco_detector_yj_pkg_2'
+[1.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.028s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/teamleafia/ros2_mer/src/marker_align_2'
+[2.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.400s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/teamleafia/ros2_mer/src/pump_control'
+[2.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/teamleafia/ros2_mer/src/aruco_detector': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector build --build-base /home/teamleafia/ros2_mer/build/aruco_detector/build install --record /home/teamleafia/ros2_mer/build/aruco_detector/install.log --single-version-externally-managed install_data
+[3.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/teamleafia/ros2_mer/src/pump_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/pump_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pump_control build --build-base /home/teamleafia/ros2_mer/build/pump_control/build install --record /home/teamleafia/ros2_mer/build/pump_control/install.log --single-version-externally-managed install_data
+[3.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/teamleafia/ros2_mer/src/marker_align_2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/marker_align_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marker_align_2 build --build-base /home/teamleafia/ros2_mer/build/marker_align_2/build install --record /home/teamleafia/ros2_mer/build/marker_align_2/install.log --single-version-externally-managed install_data
+[4.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/teamleafia/ros2_mer/src/aruco_detector_yj_pkg_2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector_yj_pkg_2 build --build-base /home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/build install --record /home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/install.log --single-version-externally-managed install_data
+[6.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/teamleafia/ros2_mer/src/marker_align_2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/marker_align_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marker_align_2 build --build-base /home/teamleafia/ros2_mer/build/marker_align_2/build install --record /home/teamleafia/ros2_mer/build/marker_align_2/install.log --single-version-externally-managed install_data
+[6.108s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/marker_align_2' for CMake module files
+[6.108s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/marker_align_2' for CMake config files
+[6.111s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/marker_align_2/lib'
+[6.114s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/marker_align_2/bin'
+[6.114s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/marker_align_2/lib/pkgconfig/marker_align_2.pc'
+[6.119s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages'
+[6.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('marker_align_2', 'pythonpath')
+[6.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/marker_align_2/share/marker_align_2/hook/pythonpath.ps1'
+[6.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/teamleafia/ros2_mer/install/marker_align_2/share/marker_align_2/hook/pythonpath.dsv'
+[6.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/marker_align_2/share/marker_align_2/hook/pythonpath.sh'
+[6.130s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/marker_align_2/bin'
+[6.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(marker_align_2)
+[6.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/marker_align_2/share/marker_align_2/package.ps1'
+[6.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/teamleafia/ros2_mer/install/marker_align_2/share/marker_align_2/package.dsv'
+[6.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/marker_align_2/share/marker_align_2/package.sh'
+[6.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/marker_align_2/share/marker_align_2/package.bash'
+[6.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/marker_align_2/share/marker_align_2/package.zsh'
+[6.228s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/teamleafia/ros2_mer/install/marker_align_2/share/colcon-core/packages/marker_align_2)
+[6.230s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/teamleafia/ros2_mer/src/robot_control' with build type 'ament_python'
+[6.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'ament_prefix_path')
+[6.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/robot_control/share/robot_control/hook/ament_prefix_path.ps1'
+[6.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/teamleafia/ros2_mer/install/robot_control/share/robot_control/hook/ament_prefix_path.dsv'
+[6.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/robot_control/share/robot_control/hook/ament_prefix_path.sh'
+[6.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.252s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/aruco_detector' for CMake module files
+[6.254s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/aruco_detector' for CMake config files
+[6.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/teamleafia/ros2_mer/src/aruco_detector' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector build --build-base /home/teamleafia/ros2_mer/build/aruco_detector/build install --record /home/teamleafia/ros2_mer/build/aruco_detector/install.log --single-version-externally-managed install_data
+[6.256s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/aruco_detector/lib'
+[6.257s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/aruco_detector/bin'
+[6.257s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/aruco_detector/lib/pkgconfig/aruco_detector.pc'
+[6.258s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages'
+[6.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_detector', 'pythonpath')
+[6.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/aruco_detector/share/aruco_detector/hook/pythonpath.ps1'
+[6.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/teamleafia/ros2_mer/install/aruco_detector/share/aruco_detector/hook/pythonpath.dsv'
+[6.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/aruco_detector/share/aruco_detector/hook/pythonpath.sh'
+[6.264s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/aruco_detector/bin'
+[6.264s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_detector)
+[6.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/aruco_detector/share/aruco_detector/package.ps1'
+[6.266s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/teamleafia/ros2_mer/install/aruco_detector/share/aruco_detector/package.dsv'
+[6.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/aruco_detector/share/aruco_detector/package.sh'
+[6.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/aruco_detector/share/aruco_detector/package.bash'
+[6.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/aruco_detector/share/aruco_detector/package.zsh'
+[6.273s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/teamleafia/ros2_mer/install/aruco_detector/share/colcon-core/packages/aruco_detector)
+[6.276s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/teamleafia/ros2_mer/src/cartrash' with build type 'ament_python'
+[6.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartrash', 'ament_prefix_path')
+[6.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/cartrash/share/cartrash/hook/ament_prefix_path.ps1'
+[6.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/teamleafia/ros2_mer/install/cartrash/share/cartrash/hook/ament_prefix_path.dsv'
+[6.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/cartrash/share/cartrash/hook/ament_prefix_path.sh'
+[6.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.811s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/teamleafia/ros2_mer/src/robot_control'
+[6.811s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.811s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.175s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/teamleafia/ros2_mer/src/cartrash'
+[7.176s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.176s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.182s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/pump_control' for CMake module files
+[7.184s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/pump_control' for CMake config files
+[7.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/teamleafia/ros2_mer/src/pump_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/pump_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pump_control build --build-base /home/teamleafia/ros2_mer/build/pump_control/build install --record /home/teamleafia/ros2_mer/build/pump_control/install.log --single-version-externally-managed install_data
+[7.185s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/pump_control/lib'
+[7.186s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/pump_control/bin'
+[7.186s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/pump_control/lib/pkgconfig/pump_control.pc'
+[7.186s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages'
+[7.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('pump_control', 'pythonpath')
+[7.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/pump_control/share/pump_control/hook/pythonpath.ps1'
+[7.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/teamleafia/ros2_mer/install/pump_control/share/pump_control/hook/pythonpath.dsv'
+[7.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/pump_control/share/pump_control/hook/pythonpath.sh'
+[7.189s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/pump_control/bin'
+[7.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pump_control)
+[7.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/pump_control/share/pump_control/package.ps1'
+[7.190s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/teamleafia/ros2_mer/install/pump_control/share/pump_control/package.dsv'
+[7.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/pump_control/share/pump_control/package.sh'
+[7.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/pump_control/share/pump_control/package.bash'
+[7.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/pump_control/share/pump_control/package.zsh'
+[7.193s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/teamleafia/ros2_mer/install/pump_control/share/colcon-core/packages/pump_control)
+[7.194s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2' for CMake module files
+[7.196s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2' for CMake config files
+[7.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/teamleafia/ros2_mer/src/aruco_detector_yj_pkg_2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector_yj_pkg_2 build --build-base /home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/build install --record /home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/install.log --single-version-externally-managed install_data
+[7.197s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib'
+[7.197s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/bin'
+[7.197s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib/pkgconfig/aruco_detector_yj_pkg_2.pc'
+[7.197s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib/python3.12/site-packages'
+[7.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_detector_yj_pkg_2', 'pythonpath')
+[7.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/share/aruco_detector_yj_pkg_2/hook/pythonpath.ps1'
+[7.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/share/aruco_detector_yj_pkg_2/hook/pythonpath.dsv'
+[7.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/share/aruco_detector_yj_pkg_2/hook/pythonpath.sh'
+[7.200s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/bin'
+[7.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_detector_yj_pkg_2)
+[7.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/share/aruco_detector_yj_pkg_2/package.ps1'
+[7.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/share/aruco_detector_yj_pkg_2/package.dsv'
+[7.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/share/aruco_detector_yj_pkg_2/package.sh'
+[7.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/share/aruco_detector_yj_pkg_2/package.bash'
+[7.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/share/aruco_detector_yj_pkg_2/package.zsh'
+[7.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/share/colcon-core/packages/aruco_detector_yj_pkg_2)
+[8.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/teamleafia/ros2_mer/src/robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/teamleafia/ros2_mer/build/robot_control/build install --record /home/teamleafia/ros2_mer/build/robot_control/install.log --single-version-externally-managed install_data
+[8.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/teamleafia/ros2_mer/src/cartrash': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/cartrash/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/cartrash/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cartrash build --build-base /home/teamleafia/ros2_mer/build/cartrash/build install --record /home/teamleafia/ros2_mer/build/cartrash/install.log --single-version-externally-managed install_data
+[9.295s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/robot_control' for CMake module files
+[9.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/teamleafia/ros2_mer/src/robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/teamleafia/ros2_mer/build/robot_control/build install --record /home/teamleafia/ros2_mer/build/robot_control/install.log --single-version-externally-managed install_data
+[9.296s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/robot_control' for CMake config files
+[9.297s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/robot_control/lib'
+[9.297s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/robot_control/bin'
+[9.297s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/robot_control/lib/pkgconfig/robot_control.pc'
+[9.297s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages'
+[9.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'pythonpath')
+[9.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/robot_control/share/robot_control/hook/pythonpath.ps1'
+[9.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/teamleafia/ros2_mer/install/robot_control/share/robot_control/hook/pythonpath.dsv'
+[9.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/robot_control/share/robot_control/hook/pythonpath.sh'
+[9.300s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/robot_control/bin'
+[9.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_control)
+[9.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/robot_control/share/robot_control/package.ps1'
+[9.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/teamleafia/ros2_mer/install/robot_control/share/robot_control/package.dsv'
+[9.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/robot_control/share/robot_control/package.sh'
+[9.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/robot_control/share/robot_control/package.bash'
+[9.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/robot_control/share/robot_control/package.zsh'
+[9.304s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/teamleafia/ros2_mer/install/robot_control/share/colcon-core/packages/robot_control)
+[9.305s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/teamleafia/ros2_mer/src/plant_transport' with build type 'ament_python'
+[9.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('plant_transport', 'ament_prefix_path')
+[9.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/hook/ament_prefix_path.ps1'
+[9.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/hook/ament_prefix_path.dsv'
+[9.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/hook/ament_prefix_path.sh'
+[9.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.317s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/cartrash' for CMake module files
+[9.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/teamleafia/ros2_mer/src/cartrash' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/cartrash/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/cartrash/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cartrash build --build-base /home/teamleafia/ros2_mer/build/cartrash/build install --record /home/teamleafia/ros2_mer/build/cartrash/install.log --single-version-externally-managed install_data
+[9.318s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/cartrash' for CMake config files
+[9.319s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/cartrash/lib'
+[9.319s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/cartrash/bin'
+[9.319s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/cartrash/lib/pkgconfig/cartrash.pc'
+[9.320s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/cartrash/lib/python3.12/site-packages'
+[9.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartrash', 'pythonpath')
+[9.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/cartrash/share/cartrash/hook/pythonpath.ps1'
+[9.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/teamleafia/ros2_mer/install/cartrash/share/cartrash/hook/pythonpath.dsv'
+[9.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/cartrash/share/cartrash/hook/pythonpath.sh'
+[9.323s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/cartrash/bin'
+[9.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartrash)
+[9.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/cartrash/share/cartrash/package.ps1'
+[9.325s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/teamleafia/ros2_mer/install/cartrash/share/cartrash/package.dsv'
+[9.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/cartrash/share/cartrash/package.sh'
+[9.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/cartrash/share/cartrash/package.bash'
+[9.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/cartrash/share/cartrash/package.zsh'
+[9.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/teamleafia/ros2_mer/install/cartrash/share/colcon-core/packages/cartrash)
+[9.689s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/teamleafia/ros2_mer/src/plant_transport'
+[9.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/teamleafia/ros2_mer/src/plant_transport': AMENT_PREFIX_PATH=/home/teamleafia/ros2_mer/install/robot_control:/home/teamleafia/ros2_mer/install/pump_control:/home/teamleafia/ros2_mer/install/marker_align_2:/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2:/home/teamleafia/ros2_mer/install/aruco_detector:/home/teamleafia/ros2_mer/install/plant_transport:/home/teamleafia/ros2_mer/install/cartrash:/home/teamleafia/ros2_mot/install/rplidar_ros:/home/teamleafia/ros2_mot/install/robot_control:/home/teamleafia/ros2_mot/install/pca9685_motor_control:/home/teamleafia/slam_ws/install/my_robot_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/plant_transport/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/plant_transport/lib/python3.12/site-packages:/home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages:/home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages:/home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages:/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib/python3.12/site-packages:/home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages:/home/teamleafia/ros2_mer/install/plant_transport/lib/python3.12/site-packages:/home/teamleafia/ros2_mer/install/cartrash/lib/python3.12/site-packages:/home/teamleafia/ros2_mot/install/robot_control/lib/python3.12/site-packages:/home/teamleafia/ros2_mot/install/pca9685_motor_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/plant_transport build --build-base /home/teamleafia/ros2_mer/build/plant_transport/build install --record /home/teamleafia/ros2_mer/build/plant_transport/install.log --single-version-externally-managed install_data
+[11.735s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/plant_transport' for CMake module files
+[11.736s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/plant_transport' for CMake config files
+[11.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/teamleafia/ros2_mer/src/plant_transport' returned '0': AMENT_PREFIX_PATH=/home/teamleafia/ros2_mer/install/robot_control:/home/teamleafia/ros2_mer/install/pump_control:/home/teamleafia/ros2_mer/install/marker_align_2:/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2:/home/teamleafia/ros2_mer/install/aruco_detector:/home/teamleafia/ros2_mer/install/plant_transport:/home/teamleafia/ros2_mer/install/cartrash:/home/teamleafia/ros2_mot/install/rplidar_ros:/home/teamleafia/ros2_mot/install/robot_control:/home/teamleafia/ros2_mot/install/pca9685_motor_control:/home/teamleafia/slam_ws/install/my_robot_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/plant_transport/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/plant_transport/lib/python3.12/site-packages:/home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages:/home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages:/home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages:/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib/python3.12/site-packages:/home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages:/home/teamleafia/ros2_mer/install/plant_transport/lib/python3.12/site-packages:/home/teamleafia/ros2_mer/install/cartrash/lib/python3.12/site-packages:/home/teamleafia/ros2_mot/install/robot_control/lib/python3.12/site-packages:/home/teamleafia/ros2_mot/install/pca9685_motor_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/plant_transport build --build-base /home/teamleafia/ros2_mer/build/plant_transport/build install --record /home/teamleafia/ros2_mer/build/plant_transport/install.log --single-version-externally-managed install_data
+[11.737s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/plant_transport/lib'
+[11.737s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/plant_transport/bin'
+[11.737s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/plant_transport/lib/pkgconfig/plant_transport.pc'
+[11.737s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/plant_transport/lib/python3.12/site-packages'
+[11.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('plant_transport', 'pythonpath')
+[11.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/hook/pythonpath.ps1'
+[11.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/hook/pythonpath.dsv'
+[11.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/hook/pythonpath.sh'
+[11.740s] Level 1:colcon.colcon_core.environment:checking '/home/teamleafia/ros2_mer/install/plant_transport/bin'
+[11.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(plant_transport)
+[11.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/package.ps1'
+[11.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/package.dsv'
+[11.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/package.sh'
+[11.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/package.bash'
+[11.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/package.zsh'
+[11.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/teamleafia/ros2_mer/install/plant_transport/share/colcon-core/packages/plant_transport)
+[11.745s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.746s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.746s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.746s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.755s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.755s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.755s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[36.779s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[36.779s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[36.780s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/teamleafia/ros2_mer/install/local_setup.ps1'
+[36.781s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/teamleafia/ros2_mer/install/_local_setup_util_ps1.py'
+[36.784s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/teamleafia/ros2_mer/install/setup.ps1'
+[36.786s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/teamleafia/ros2_mer/install/local_setup.sh'
+[36.787s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/teamleafia/ros2_mer/install/_local_setup_util_sh.py'
+[36.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/teamleafia/ros2_mer/install/setup.sh'
+[36.792s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/teamleafia/ros2_mer/install/local_setup.bash'
+[36.792s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/teamleafia/ros2_mer/install/setup.bash'
+[36.794s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/teamleafia/ros2_mer/install/local_setup.zsh'
+[36.795s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/teamleafia/ros2_mer/install/setup.zsh'

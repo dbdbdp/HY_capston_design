@@ -1,0 +1,41 @@
+[4.213s] Invoking command in '/home/teamleafia/ros2_mer/src/pump_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/pump_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pump_control build --build-base /home/teamleafia/ros2_mer/build/pump_control/build install --record /home/teamleafia/ros2_mer/build/pump_control/install.log --single-version-externally-managed install_data
+[4.907s] running egg_info
+[4.908s] creating ../../build/pump_control/pump_control.egg-info
+[4.955s] writing ../../build/pump_control/pump_control.egg-info/PKG-INFO
+[4.955s] writing dependency_links to ../../build/pump_control/pump_control.egg-info/dependency_links.txt
+[4.955s] writing entry points to ../../build/pump_control/pump_control.egg-info/entry_points.txt
+[4.960s] writing requirements to ../../build/pump_control/pump_control.egg-info/requires.txt
+[4.966s] writing top-level names to ../../build/pump_control/pump_control.egg-info/top_level.txt
+[4.966s] writing manifest file '../../build/pump_control/pump_control.egg-info/SOURCES.txt'
+[5.051s] reading manifest file '../../build/pump_control/pump_control.egg-info/SOURCES.txt'
+[5.052s] writing manifest file '../../build/pump_control/pump_control.egg-info/SOURCES.txt'
+[5.053s] running build
+[5.054s] running build_py
+[5.055s] creating /home/teamleafia/ros2_mer/build/pump_control/build
+[5.055s] creating /home/teamleafia/ros2_mer/build/pump_control/build/lib
+[5.055s] creating /home/teamleafia/ros2_mer/build/pump_control/build/lib/pump_control
+[5.060s] copying pump_control/pump_testnode.py -> /home/teamleafia/ros2_mer/build/pump_control/build/lib/pump_control
+[5.060s] copying pump_control/pump_node.py -> /home/teamleafia/ros2_mer/build/pump_control/build/lib/pump_control
+[5.060s] copying pump_control/__init__.py -> /home/teamleafia/ros2_mer/build/pump_control/build/lib/pump_control
+[5.061s] running install
+[5.081s] running install_lib
+[5.118s] creating /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control
+[5.119s] copying /home/teamleafia/ros2_mer/build/pump_control/build/lib/pump_control/pump_testnode.py -> /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control
+[5.119s] copying /home/teamleafia/ros2_mer/build/pump_control/build/lib/pump_control/pump_node.py -> /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control
+[5.119s] copying /home/teamleafia/ros2_mer/build/pump_control/build/lib/pump_control/__init__.py -> /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control
+[5.119s] byte-compiling /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control/pump_testnode.py to pump_testnode.cpython-312.pyc
+[5.122s] byte-compiling /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control/pump_node.py to pump_node.cpython-312.pyc
+[5.122s] byte-compiling /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control/__init__.py to __init__.cpython-312.pyc
+[5.123s] running install_data
+[5.123s] creating /home/teamleafia/ros2_mer/install/pump_control/share/ament_index
+[5.123s] creating /home/teamleafia/ros2_mer/install/pump_control/share/ament_index/resource_index
+[5.123s] creating /home/teamleafia/ros2_mer/install/pump_control/share/ament_index/resource_index/packages
+[5.123s] copying resource/pump_control -> /home/teamleafia/ros2_mer/install/pump_control/share/ament_index/resource_index/packages
+[5.123s] copying package.xml -> /home/teamleafia/ros2_mer/install/pump_control/share/pump_control
+[5.132s] running install_egg_info
+[5.177s] Copying ../../build/pump_control/pump_control.egg-info to /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control-0.0.0-py3.12.egg-info
+[5.187s] running install_scripts
+[5.649s] Installing pump_node script to /home/teamleafia/ros2_mer/install/pump_control/lib/pump_control
+[5.650s] Installing pump_testnode script to /home/teamleafia/ros2_mer/install/pump_control/lib/pump_control
+[5.650s] writing list of installed files to '/home/teamleafia/ros2_mer/build/pump_control/install.log'
+[5.792s] Invoked command in '/home/teamleafia/ros2_mer/src/pump_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/pump_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pump_control build --build-base /home/teamleafia/ros2_mer/build/pump_control/build install --record /home/teamleafia/ros2_mer/build/pump_control/install.log --single-version-externally-managed install_data

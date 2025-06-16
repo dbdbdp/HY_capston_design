@@ -1,0 +1,19 @@
+[1.835s] Invoking command in '/home/teamleafia/ros2_mer/src/cartrash': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/cartrash/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/cartrash/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cartrash build --build-base /home/teamleafia/ros2_mer/build/cartrash/build install --record /home/teamleafia/ros2_mer/build/cartrash/install.log --single-version-externally-managed install_data
+[2.299s] running egg_info
+[2.331s] writing ../../build/cartrash/cartrash.egg-info/PKG-INFO
+[2.333s] writing dependency_links to ../../build/cartrash/cartrash.egg-info/dependency_links.txt
+[2.333s] writing requirements to ../../build/cartrash/cartrash.egg-info/requires.txt
+[2.334s] writing top-level names to ../../build/cartrash/cartrash.egg-info/top_level.txt
+[2.401s] reading manifest file '../../build/cartrash/cartrash.egg-info/SOURCES.txt'
+[2.402s] writing manifest file '../../build/cartrash/cartrash.egg-info/SOURCES.txt'
+[2.402s] running build
+[2.402s] running build_py
+[2.402s] running install
+[2.413s] running install_lib
+[2.445s] running install_data
+[2.445s] running install_egg_info
+[2.480s] removing '/home/teamleafia/ros2_mer/install/cartrash/lib/python3.12/site-packages/cartrash-0.0.0-py3.12.egg-info' (and everything under it)
+[2.482s] Copying ../../build/cartrash/cartrash.egg-info to /home/teamleafia/ros2_mer/install/cartrash/lib/python3.12/site-packages/cartrash-0.0.0-py3.12.egg-info
+[2.482s] running install_scripts
+[2.722s] writing list of installed files to '/home/teamleafia/ros2_mer/build/cartrash/install.log'
+[2.818s] Invoked command in '/home/teamleafia/ros2_mer/src/cartrash' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/cartrash/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/cartrash/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cartrash build --build-base /home/teamleafia/ros2_mer/build/cartrash/build install --record /home/teamleafia/ros2_mer/build/cartrash/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[3.113s] Invoking command in '/home/teamleafia/ros2_mer/build/aruco_detector': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/teamleafia/ros2_mer/build/aruco_detector/build
+[3.710s] running develop
+[4.054s] Removing /home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages/aruco-detector.egg-link (link to .)
+[4.258s] Invoked command in '/home/teamleafia/ros2_mer/build/aruco_detector' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/teamleafia/ros2_mer/build/aruco_detector/build
+[4.260s] Invoking command in '/home/teamleafia/ros2_mer/src/aruco_detector': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector build --build-base /home/teamleafia/ros2_mer/build/aruco_detector/build install --record /home/teamleafia/ros2_mer/build/aruco_detector/install.log --single-version-externally-managed install_data --force
+[4.773s] running egg_info
+[4.804s] writing ../../build/aruco_detector/aruco_detector.egg-info/PKG-INFO
+[4.804s] writing dependency_links to ../../build/aruco_detector/aruco_detector.egg-info/dependency_links.txt
+[4.805s] writing entry points to ../../build/aruco_detector/aruco_detector.egg-info/entry_points.txt
+[4.805s] writing requirements to ../../build/aruco_detector/aruco_detector.egg-info/requires.txt
+[4.805s] writing top-level names to ../../build/aruco_detector/aruco_detector.egg-info/top_level.txt
+[4.873s] reading manifest file '../../build/aruco_detector/aruco_detector.egg-info/SOURCES.txt'
+[4.877s] writing manifest file '../../build/aruco_detector/aruco_detector.egg-info/SOURCES.txt'
+[4.877s] running build
+[4.878s] running build_py
+[4.878s] running install
+[4.888s] running install_lib
+[4.923s] creating /home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages/aruco_detector
+[4.923s] copying /home/teamleafia/ros2_mer/build/aruco_detector/build/lib/aruco_detector/aruco_detector_node.py -> /home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages/aruco_detector
+[4.924s] copying /home/teamleafia/ros2_mer/build/aruco_detector/build/lib/aruco_detector/aruco_detector.py -> /home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages/aruco_detector
+[4.926s] copying /home/teamleafia/ros2_mer/build/aruco_detector/build/lib/aruco_detector/aruco_move_node.py -> /home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages/aruco_detector
+[4.926s] copying /home/teamleafia/ros2_mer/build/aruco_detector/build/lib/aruco_detector/__init__.py -> /home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages/aruco_detector
+[4.926s] byte-compiling /home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages/aruco_detector/aruco_detector_node.py to aruco_detector_node.cpython-312.pyc
+[4.928s] byte-compiling /home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages/aruco_detector/aruco_detector.py to aruco_detector.cpython-312.pyc
+[4.929s] byte-compiling /home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages/aruco_detector/aruco_move_node.py to aruco_move_node.cpython-312.pyc
+[4.930s] byte-compiling /home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages/aruco_detector/__init__.py to __init__.cpython-312.pyc
+[4.930s] running install_data
+[4.930s] copying resource/aruco_detector -> /home/teamleafia/ros2_mer/install/aruco_detector/share/ament_index/resource_index/packages
+[4.931s] copying package.xml -> /home/teamleafia/ros2_mer/install/aruco_detector/share/aruco_detector
+[4.931s] running install_egg_info
+[4.971s] Copying ../../build/aruco_detector/aruco_detector.egg-info to /home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages/aruco_detector-0.0.0-py3.12.egg-info
+[4.973s] running install_scripts
+[5.218s] Installing aruco_detector script to /home/teamleafia/ros2_mer/install/aruco_detector/lib/aruco_detector
+[5.219s] Installing aruco_detector_node script to /home/teamleafia/ros2_mer/install/aruco_detector/lib/aruco_detector
+[5.221s] Installing aruco_move_node script to /home/teamleafia/ros2_mer/install/aruco_detector/lib/aruco_detector
+[5.222s] writing list of installed files to '/home/teamleafia/ros2_mer/build/aruco_detector/install.log'
+[5.393s] Invoked command in '/home/teamleafia/ros2_mer/src/aruco_detector' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/aruco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/aruco_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector build --build-base /home/teamleafia/ros2_mer/build/aruco_detector/build install --record /home/teamleafia/ros2_mer/build/aruco_detector/install.log --single-version-externally-managed install_data --force

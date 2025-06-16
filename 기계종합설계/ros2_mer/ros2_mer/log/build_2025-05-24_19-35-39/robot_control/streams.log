@@ -1,0 +1,61 @@
+[7.345s] Invoking command in '/home/teamleafia/ros2_mer/src/robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/teamleafia/ros2_mer/build/robot_control/build install --record /home/teamleafia/ros2_mer/build/robot_control/install.log --single-version-externally-managed install_data
+[8.625s] running egg_info
+[8.628s] creating ../../build/robot_control/robot_control.egg-info
+[8.666s] writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+[8.673s] writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+[8.673s] writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+[8.673s] writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+[8.674s] writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+[8.675s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[8.824s] reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[8.828s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[8.830s] running build
+[8.832s] running build_py
+[8.832s] creating /home/teamleafia/ros2_mer/build/robot_control/build
+[8.840s] creating /home/teamleafia/ros2_mer/build/robot_control/build/lib
+[8.840s] creating /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control
+[8.840s] copying robot_control/scissor_lift_controller.py -> /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control
+[8.840s] copying robot_control/teleop_keyboard_node.py -> /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control
+[8.840s] copying robot_control/move_distance_node.py -> /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control
+[8.840s] copying robot_control/encoder_publisher_node.py -> /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control
+[8.840s] copying robot_control/__init__.py -> /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control
+[8.841s] copying robot_control/motor_controller_node.py -> /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control
+[8.841s] copying robot_control/pid_controller_node.py -> /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control
+[8.841s] copying robot_control/teleop_keyboard_node2.py -> /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control
+[8.841s] running install
+[8.878s] running install_lib
+[9.066s] creating /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control
+[9.067s] copying /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control/scissor_lift_controller.py -> /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control
+[9.072s] copying /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control/teleop_keyboard_node.py -> /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control
+[9.074s] copying /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control/move_distance_node.py -> /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control
+[9.074s] copying /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control/encoder_publisher_node.py -> /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control
+[9.080s] copying /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control/__init__.py -> /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control
+[9.080s] copying /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control/motor_controller_node.py -> /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control
+[9.081s] copying /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control/pid_controller_node.py -> /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control
+[9.091s] copying /home/teamleafia/ros2_mer/build/robot_control/build/lib/robot_control/teleop_keyboard_node2.py -> /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control
+[9.091s] byte-compiling /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control/scissor_lift_controller.py to scissor_lift_controller.cpython-312.pyc
+[9.106s] byte-compiling /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control/teleop_keyboard_node.py to teleop_keyboard_node.cpython-312.pyc
+[9.112s] byte-compiling /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control/move_distance_node.py to move_distance_node.cpython-312.pyc
+[9.119s] byte-compiling /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control/encoder_publisher_node.py to encoder_publisher_node.cpython-312.pyc
+[9.128s] byte-compiling /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control/__init__.py to __init__.cpython-312.pyc
+[9.129s] byte-compiling /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control/motor_controller_node.py to motor_controller_node.cpython-312.pyc
+[9.137s] byte-compiling /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control/pid_controller_node.py to pid_controller_node.cpython-312.pyc
+[9.157s] byte-compiling /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control/teleop_keyboard_node2.py to teleop_keyboard_node2.cpython-312.pyc
+[9.158s] running install_data
+[9.164s] creating /home/teamleafia/ros2_mer/install/robot_control/share/ament_index
+[9.165s] creating /home/teamleafia/ros2_mer/install/robot_control/share/ament_index/resource_index
+[9.165s] creating /home/teamleafia/ros2_mer/install/robot_control/share/ament_index/resource_index/packages
+[9.166s] copying resource/robot_control -> /home/teamleafia/ros2_mer/install/robot_control/share/ament_index/resource_index/packages
+[9.166s] copying package.xml -> /home/teamleafia/ros2_mer/install/robot_control/share/robot_control
+[9.166s] running install_egg_info
+[9.423s] Copying ../../build/robot_control/robot_control.egg-info to /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot_control-0.0.1-py3.12.egg-info
+[9.433s] running install_scripts
+[10.330s] Installing encoder_publisher_node script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[10.331s] Installing motor_controller_node script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[10.333s] Installing move_distance_node script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[10.335s] Installing pid_controller_node script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[10.335s] Installing scissor_lift_controller script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[10.335s] Installing teleop_keyboard_node script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[10.336s] Installing teleop_keyboard_node2 script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[10.339s] writing list of installed files to '/home/teamleafia/ros2_mer/build/robot_control/install.log'
+[11.229s] Invoked command in '/home/teamleafia/ros2_mer/src/robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/teamleafia/ros2_mer/build/robot_control/build install --record /home/teamleafia/ros2_mer/build/robot_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/plant_transport/plant_transport.egg-info
+writing ../../build/plant_transport/plant_transport.egg-info/PKG-INFO
+writing dependency_links to ../../build/plant_transport/plant_transport.egg-info/dependency_links.txt
+writing requirements to ../../build/plant_transport/plant_transport.egg-info/requires.txt
+writing top-level names to ../../build/plant_transport/plant_transport.egg-info/top_level.txt
+writing manifest file '../../build/plant_transport/plant_transport.egg-info/SOURCES.txt'
+reading manifest file '../../build/plant_transport/plant_transport.egg-info/SOURCES.txt'
+writing manifest file '../../build/plant_transport/plant_transport.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/teamleafia/ros2_mer/build/plant_transport/build
+creating /home/teamleafia/ros2_mer/build/plant_transport/build/lib
+creating /home/teamleafia/ros2_mer/build/plant_transport/build/lib/plant_transport
+copying plant_transport/__init__.py -> /home/teamleafia/ros2_mer/build/plant_transport/build/lib/plant_transport
+running install
+running install_lib
+creating /home/teamleafia/ros2_mer/install/plant_transport/lib/python3.12/site-packages/plant_transport
+copying /home/teamleafia/ros2_mer/build/plant_transport/build/lib/plant_transport/__init__.py -> /home/teamleafia/ros2_mer/install/plant_transport/lib/python3.12/site-packages/plant_transport
+byte-compiling /home/teamleafia/ros2_mer/install/plant_transport/lib/python3.12/site-packages/plant_transport/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/teamleafia/ros2_mer/install/plant_transport/share/ament_index
+creating /home/teamleafia/ros2_mer/install/plant_transport/share/ament_index/resource_index
+creating /home/teamleafia/ros2_mer/install/plant_transport/share/ament_index/resource_index/packages
+copying resource/plant_transport -> /home/teamleafia/ros2_mer/install/plant_transport/share/ament_index/resource_index/packages
+copying package.xml -> /home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport
+creating /home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/launch
+copying launch/plant_transport.launch.py -> /home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/launch
+copying launch/experiment_launch.py -> /home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/launch
+copying launch/plant_teleop_key_launch.py -> /home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/launch
+copying launch/plant_cart_tel_key_launch.py -> /home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/launch
+copying launch/total_launch.py -> /home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/launch
+copying launch/yj_align_launch.py -> /home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/launch
+running install_egg_info
+Copying ../../build/plant_transport/plant_transport.egg-info to /home/teamleafia/ros2_mer/install/plant_transport/lib/python3.12/site-packages/plant_transport-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/teamleafia/ros2_mer/build/plant_transport/install.log'

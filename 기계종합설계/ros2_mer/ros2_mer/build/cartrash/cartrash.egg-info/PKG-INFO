@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: cartrash
+Version: 0.0.0
+Summary: ROS2 package for 2D SLAM using RPLIDAR A1M8 and Cartographer
+Maintainer: teamleafia
+Maintainer-email: teamleafia@todo.todo
+License: Apache-2.0

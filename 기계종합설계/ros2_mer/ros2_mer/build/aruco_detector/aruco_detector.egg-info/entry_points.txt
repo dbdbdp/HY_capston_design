@@ -1,0 +1,4 @@
+[console_scripts]
+aruco_detector = aruco_detector.aruco_detector:main
+aruco_detector_node = aruco_detector.aruco_detector_node:main
+aruco_move_node = aruco_detector.aruco_move_node:main

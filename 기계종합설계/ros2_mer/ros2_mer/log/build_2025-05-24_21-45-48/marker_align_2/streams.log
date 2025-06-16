@@ -1,0 +1,17 @@
+[2.871s] Invoking command in '/home/teamleafia/ros2_mer/build/marker_align_2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/marker_align_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/teamleafia/ros2_mer/build/marker_align_2/build --no-deps symlink_data
+[3.605s] running develop
+[3.970s] running egg_info
+[4.018s] writing marker_align_2.egg-info/PKG-INFO
+[4.021s] writing dependency_links to marker_align_2.egg-info/dependency_links.txt
+[4.023s] writing entry points to marker_align_2.egg-info/entry_points.txt
+[4.024s] writing requirements to marker_align_2.egg-info/requires.txt
+[4.026s] writing top-level names to marker_align_2.egg-info/top_level.txt
+[4.128s] reading manifest file 'marker_align_2.egg-info/SOURCES.txt'
+[4.129s] writing manifest file 'marker_align_2.egg-info/SOURCES.txt'
+[4.240s] running build_ext
+[4.240s] Creating /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker-align-2.egg-link (link to .)
+[4.247s] Installing marker_align_node2 script to /home/teamleafia/ros2_mer/install/marker_align_2/lib/marker_align_2
+[4.247s] 
+[4.247s] Installed /home/teamleafia/ros2_mer/build/marker_align_2
+[4.248s] running symlink_data
+[4.712s] Invoked command in '/home/teamleafia/ros2_mer/build/marker_align_2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/marker_align_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/teamleafia/ros2_mer/build/marker_align_2/build --no-deps symlink_data

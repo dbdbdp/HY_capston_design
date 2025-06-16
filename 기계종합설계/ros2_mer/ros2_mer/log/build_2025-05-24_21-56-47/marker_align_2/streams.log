@@ -1,0 +1,34 @@
+[3.059s] Invoking command in '/home/teamleafia/ros2_mer/build/marker_align_2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/marker_align_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/teamleafia/ros2_mer/build/marker_align_2/build
+[3.642s] running develop
+[3.987s] Removing /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker-align-2.egg-link (link to .)
+[4.177s] Invoked command in '/home/teamleafia/ros2_mer/build/marker_align_2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/marker_align_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/teamleafia/ros2_mer/build/marker_align_2/build
+[4.179s] Invoking command in '/home/teamleafia/ros2_mer/src/marker_align_2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/marker_align_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marker_align_2 build --build-base /home/teamleafia/ros2_mer/build/marker_align_2/build install --record /home/teamleafia/ros2_mer/build/marker_align_2/install.log --single-version-externally-managed install_data --force
+[4.689s] running egg_info
+[4.722s] writing ../../build/marker_align_2/marker_align_2.egg-info/PKG-INFO
+[4.722s] writing dependency_links to ../../build/marker_align_2/marker_align_2.egg-info/dependency_links.txt
+[4.723s] writing entry points to ../../build/marker_align_2/marker_align_2.egg-info/entry_points.txt
+[4.724s] writing requirements to ../../build/marker_align_2/marker_align_2.egg-info/requires.txt
+[4.724s] writing top-level names to ../../build/marker_align_2/marker_align_2.egg-info/top_level.txt
+[4.796s] reading manifest file '../../build/marker_align_2/marker_align_2.egg-info/SOURCES.txt'
+[4.798s] writing manifest file '../../build/marker_align_2/marker_align_2.egg-info/SOURCES.txt'
+[4.799s] running build
+[4.799s] running build_py
+[4.801s] copying marker_align_2/marker_align_node2.py -> /home/teamleafia/ros2_mer/build/marker_align_2/build/lib/marker_align_2
+[4.803s] running install
+[4.814s] running install_lib
+[4.851s] creating /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2
+[4.853s] copying /home/teamleafia/ros2_mer/build/marker_align_2/build/lib/marker_align_2/marker_align_node2.py -> /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2
+[4.853s] copying /home/teamleafia/ros2_mer/build/marker_align_2/build/lib/marker_align_2/marker_align_node.py -> /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2
+[4.854s] copying /home/teamleafia/ros2_mer/build/marker_align_2/build/lib/marker_align_2/__init__.py -> /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2
+[4.855s] byte-compiling /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2/marker_align_node2.py to marker_align_node2.cpython-312.pyc
+[4.859s] byte-compiling /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2/marker_align_node.py to marker_align_node.cpython-312.pyc
+[4.862s] byte-compiling /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2/__init__.py to __init__.cpython-312.pyc
+[4.863s] running install_data
+[4.864s] copying resource/marker_align_2 -> /home/teamleafia/ros2_mer/install/marker_align_2/share/ament_index/resource_index/packages
+[4.866s] copying package.xml -> /home/teamleafia/ros2_mer/install/marker_align_2/share/marker_align_2
+[4.866s] running install_egg_info
+[4.903s] Copying ../../build/marker_align_2/marker_align_2.egg-info to /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2-0.0.0-py3.12.egg-info
+[4.904s] running install_scripts
+[5.142s] Installing marker_align_node2 script to /home/teamleafia/ros2_mer/install/marker_align_2/lib/marker_align_2
+[5.148s] writing list of installed files to '/home/teamleafia/ros2_mer/build/marker_align_2/install.log'
+[5.350s] Invoked command in '/home/teamleafia/ros2_mer/src/marker_align_2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/marker_align_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marker_align_2 build --build-base /home/teamleafia/ros2_mer/build/marker_align_2/build install --record /home/teamleafia/ros2_mer/build/marker_align_2/install.log --single-version-externally-managed install_data --force

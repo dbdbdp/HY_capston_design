@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing marker_align_2.egg-info/PKG-INFO
+writing dependency_links to marker_align_2.egg-info/dependency_links.txt
+writing entry points to marker_align_2.egg-info/entry_points.txt
+writing requirements to marker_align_2.egg-info/requires.txt
+writing top-level names to marker_align_2.egg-info/top_level.txt
+reading manifest file 'marker_align_2.egg-info/SOURCES.txt'
+writing manifest file 'marker_align_2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker-align-2.egg-link (link to .)
+Installing marker_align_node2 script to /home/teamleafia/ros2_mer/install/marker_align_2/lib/marker_align_2
+
+Installed /home/teamleafia/ros2_mer/build/marker_align_2
+running symlink_data
+symbolically linking /home/teamleafia/ros2_mer/build/marker_align_2/resource/marker_align_2 -> /home/teamleafia/ros2_mer/install/marker_align_2/share/ament_index/resource_index/packages
+symbolically linking /home/teamleafia/ros2_mer/build/marker_align_2/package.xml -> /home/teamleafia/ros2_mer/install/marker_align_2/share/marker_align_2

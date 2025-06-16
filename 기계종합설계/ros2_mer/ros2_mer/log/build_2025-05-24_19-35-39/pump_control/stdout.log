@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/pump_control/pump_control.egg-info
+writing ../../build/pump_control/pump_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/pump_control/pump_control.egg-info/dependency_links.txt
+writing entry points to ../../build/pump_control/pump_control.egg-info/entry_points.txt
+writing requirements to ../../build/pump_control/pump_control.egg-info/requires.txt
+writing top-level names to ../../build/pump_control/pump_control.egg-info/top_level.txt
+writing manifest file '../../build/pump_control/pump_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/pump_control/pump_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/pump_control/pump_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/teamleafia/ros2_mer/build/pump_control/build
+creating /home/teamleafia/ros2_mer/build/pump_control/build/lib
+creating /home/teamleafia/ros2_mer/build/pump_control/build/lib/pump_control
+copying pump_control/pump_testnode.py -> /home/teamleafia/ros2_mer/build/pump_control/build/lib/pump_control
+copying pump_control/pump_node.py -> /home/teamleafia/ros2_mer/build/pump_control/build/lib/pump_control
+copying pump_control/__init__.py -> /home/teamleafia/ros2_mer/build/pump_control/build/lib/pump_control
+running install
+running install_lib
+creating /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control
+copying /home/teamleafia/ros2_mer/build/pump_control/build/lib/pump_control/pump_testnode.py -> /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control
+copying /home/teamleafia/ros2_mer/build/pump_control/build/lib/pump_control/pump_node.py -> /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control
+copying /home/teamleafia/ros2_mer/build/pump_control/build/lib/pump_control/__init__.py -> /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control
+byte-compiling /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control/pump_testnode.py to pump_testnode.cpython-312.pyc
+byte-compiling /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control/pump_node.py to pump_node.cpython-312.pyc
+byte-compiling /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/teamleafia/ros2_mer/install/pump_control/share/ament_index
+creating /home/teamleafia/ros2_mer/install/pump_control/share/ament_index/resource_index
+creating /home/teamleafia/ros2_mer/install/pump_control/share/ament_index/resource_index/packages
+copying resource/pump_control -> /home/teamleafia/ros2_mer/install/pump_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/teamleafia/ros2_mer/install/pump_control/share/pump_control
+running install_egg_info
+Copying ../../build/pump_control/pump_control.egg-info to /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing pump_node script to /home/teamleafia/ros2_mer/install/pump_control/lib/pump_control
+Installing pump_testnode script to /home/teamleafia/ros2_mer/install/pump_control/lib/pump_control
+writing list of installed files to '/home/teamleafia/ros2_mer/build/pump_control/install.log'

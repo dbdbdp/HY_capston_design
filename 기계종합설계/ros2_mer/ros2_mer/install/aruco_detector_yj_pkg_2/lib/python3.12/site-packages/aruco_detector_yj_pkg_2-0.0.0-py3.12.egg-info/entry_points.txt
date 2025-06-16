@@ -1,0 +1,2 @@
+[console_scripts]
+aruco_detector_yj_node = aruco_detector_yj_pkg_2.aruco_detector_yj_node:main

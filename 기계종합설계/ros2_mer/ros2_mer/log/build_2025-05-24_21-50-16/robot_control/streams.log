@@ -1,0 +1,24 @@
+[2.071s] Invoking command in '/home/teamleafia/ros2_mer/build/robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/teamleafia/ros2_mer/build/robot_control/build --no-deps symlink_data
+[2.669s] running develop
+[3.045s] running egg_info
+[3.079s] writing robot_control.egg-info/PKG-INFO
+[3.079s] writing dependency_links to robot_control.egg-info/dependency_links.txt
+[3.083s] writing entry points to robot_control.egg-info/entry_points.txt
+[3.086s] writing requirements to robot_control.egg-info/requires.txt
+[3.086s] writing top-level names to robot_control.egg-info/top_level.txt
+[3.156s] reading manifest file 'robot_control.egg-info/SOURCES.txt'
+[3.158s] writing manifest file 'robot_control.egg-info/SOURCES.txt'
+[3.194s] running build_ext
+[3.194s] Creating /home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages/robot-control.egg-link (link to .)
+[3.195s] Installing encoder_publisher_node script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[3.195s] Installing motor_controller_node script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[3.196s] Installing move_distance_node script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[3.197s] Installing pid_controller_node script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[3.197s] Installing scissor_lift_controller script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[3.197s] Installing teleop_keyboard_node script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[3.198s] Installing teleop_keyboard_node2 script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[3.198s] Installing teleop_keyboard_node4 script to /home/teamleafia/ros2_mer/install/robot_control/lib/robot_control
+[3.198s] 
+[3.198s] Installed /home/teamleafia/ros2_mer/build/robot_control
+[3.198s] running symlink_data
+[3.335s] Invoked command in '/home/teamleafia/ros2_mer/build/robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/teamleafia/ros2_mer/build/robot_control/build --no-deps symlink_data

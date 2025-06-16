@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing plant_transport.egg-info/PKG-INFO
+writing dependency_links to plant_transport.egg-info/dependency_links.txt
+writing requirements to plant_transport.egg-info/requires.txt
+writing top-level names to plant_transport.egg-info/top_level.txt
+reading manifest file 'plant_transport.egg-info/SOURCES.txt'
+writing manifest file 'plant_transport.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/teamleafia/ros2_mer/install/plant_transport/lib/python3.12/site-packages/plant-transport.egg-link (link to .)
+
+Installed /home/teamleafia/ros2_mer/build/plant_transport
+running symlink_data
+symbolically linking /home/teamleafia/ros2_mer/build/plant_transport/resource/plant_transport -> /home/teamleafia/ros2_mer/install/plant_transport/share/ament_index/resource_index/packages
+symbolically linking /home/teamleafia/ros2_mer/build/plant_transport/package.xml -> /home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport
+symbolically linking /home/teamleafia/ros2_mer/build/plant_transport/launch/plant_transport.launch.py -> /home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/launch
+symbolically linking /home/teamleafia/ros2_mer/build/plant_transport/launch/experiment_launch.py -> /home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/launch
+symbolically linking /home/teamleafia/ros2_mer/build/plant_transport/launch/plant_teleop_key_launch.py -> /home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/launch
+symbolically linking /home/teamleafia/ros2_mer/build/plant_transport/launch/plant_cart_tel_key_launch.py -> /home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/launch
+symbolically linking /home/teamleafia/ros2_mer/build/plant_transport/launch/total_launch.py -> /home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/launch
+symbolically linking /home/teamleafia/ros2_mer/build/plant_transport/launch/yj_align_launch.py -> /home/teamleafia/ros2_mer/install/plant_transport/share/plant_transport/launch

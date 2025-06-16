@@ -1,0 +1,30 @@
+running develop
+Removing /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker-align-2.egg-link (link to .)
+running egg_info
+writing ../../build/marker_align_2/marker_align_2.egg-info/PKG-INFO
+writing dependency_links to ../../build/marker_align_2/marker_align_2.egg-info/dependency_links.txt
+writing entry points to ../../build/marker_align_2/marker_align_2.egg-info/entry_points.txt
+writing requirements to ../../build/marker_align_2/marker_align_2.egg-info/requires.txt
+writing top-level names to ../../build/marker_align_2/marker_align_2.egg-info/top_level.txt
+reading manifest file '../../build/marker_align_2/marker_align_2.egg-info/SOURCES.txt'
+writing manifest file '../../build/marker_align_2/marker_align_2.egg-info/SOURCES.txt'
+running build
+running build_py
+copying marker_align_2/marker_align_node2.py -> /home/teamleafia/ros2_mer/build/marker_align_2/build/lib/marker_align_2
+running install
+running install_lib
+creating /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2
+copying /home/teamleafia/ros2_mer/build/marker_align_2/build/lib/marker_align_2/marker_align_node2.py -> /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2
+copying /home/teamleafia/ros2_mer/build/marker_align_2/build/lib/marker_align_2/marker_align_node.py -> /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2
+copying /home/teamleafia/ros2_mer/build/marker_align_2/build/lib/marker_align_2/__init__.py -> /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2
+byte-compiling /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2/marker_align_node2.py to marker_align_node2.cpython-312.pyc
+byte-compiling /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2/marker_align_node.py to marker_align_node.cpython-312.pyc
+byte-compiling /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/marker_align_2 -> /home/teamleafia/ros2_mer/install/marker_align_2/share/ament_index/resource_index/packages
+copying package.xml -> /home/teamleafia/ros2_mer/install/marker_align_2/share/marker_align_2
+running install_egg_info
+Copying ../../build/marker_align_2/marker_align_2.egg-info to /home/teamleafia/ros2_mer/install/marker_align_2/lib/python3.12/site-packages/marker_align_2-0.0.0-py3.12.egg-info
+running install_scripts
+Installing marker_align_node2 script to /home/teamleafia/ros2_mer/install/marker_align_2/lib/marker_align_2
+writing list of installed files to '/home/teamleafia/ros2_mer/build/marker_align_2/install.log'

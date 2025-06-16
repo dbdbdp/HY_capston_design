@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing pump_control.egg-info/PKG-INFO
+writing dependency_links to pump_control.egg-info/dependency_links.txt
+writing entry points to pump_control.egg-info/entry_points.txt
+writing requirements to pump_control.egg-info/requires.txt
+writing top-level names to pump_control.egg-info/top_level.txt
+reading manifest file 'pump_control.egg-info/SOURCES.txt'
+writing manifest file 'pump_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/teamleafia/ros2_mer/install/pump_control/lib/python3.12/site-packages/pump-control.egg-link (link to .)
+Installing pump_node script to /home/teamleafia/ros2_mer/install/pump_control/lib/pump_control
+Installing pump_testnode script to /home/teamleafia/ros2_mer/install/pump_control/lib/pump_control
+
+Installed /home/teamleafia/ros2_mer/build/pump_control
+running symlink_data
+symbolically linking /home/teamleafia/ros2_mer/build/pump_control/resource/pump_control -> /home/teamleafia/ros2_mer/install/pump_control/share/ament_index/resource_index/packages
+symbolically linking /home/teamleafia/ros2_mer/build/pump_control/package.xml -> /home/teamleafia/ros2_mer/install/pump_control/share/pump_control

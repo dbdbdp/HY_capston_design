@@ -1,0 +1,21 @@
+[3.237s] Invoking command in '/home/teamleafia/ros2_mer/src/aruco_detector_yj_pkg_2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector_yj_pkg_2 build --build-base /home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/build install --record /home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/install.log --single-version-externally-managed install_data
+[3.889s] running egg_info
+[3.935s] writing ../../build/aruco_detector_yj_pkg_2/aruco_detector_yj_pkg_2.egg-info/PKG-INFO
+[3.937s] writing dependency_links to ../../build/aruco_detector_yj_pkg_2/aruco_detector_yj_pkg_2.egg-info/dependency_links.txt
+[3.941s] writing entry points to ../../build/aruco_detector_yj_pkg_2/aruco_detector_yj_pkg_2.egg-info/entry_points.txt
+[3.941s] writing requirements to ../../build/aruco_detector_yj_pkg_2/aruco_detector_yj_pkg_2.egg-info/requires.txt
+[3.945s] writing top-level names to ../../build/aruco_detector_yj_pkg_2/aruco_detector_yj_pkg_2.egg-info/top_level.txt
+[4.075s] reading manifest file '../../build/aruco_detector_yj_pkg_2/aruco_detector_yj_pkg_2.egg-info/SOURCES.txt'
+[4.076s] writing manifest file '../../build/aruco_detector_yj_pkg_2/aruco_detector_yj_pkg_2.egg-info/SOURCES.txt'
+[4.078s] running build
+[4.078s] running build_py
+[4.078s] running install
+[4.090s] running install_lib
+[4.129s] running install_data
+[4.129s] running install_egg_info
+[4.169s] removing '/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib/python3.12/site-packages/aruco_detector_yj_pkg_2-0.0.0-py3.12.egg-info' (and everything under it)
+[4.173s] Copying ../../build/aruco_detector_yj_pkg_2/aruco_detector_yj_pkg_2.egg-info to /home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib/python3.12/site-packages/aruco_detector_yj_pkg_2-0.0.0-py3.12.egg-info
+[4.174s] running install_scripts
+[4.536s] Installing aruco_detector_yj_node script to /home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib/aruco_detector_yj_pkg_2
+[4.536s] writing list of installed files to '/home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/install.log'
+[4.864s] Invoked command in '/home/teamleafia/ros2_mer/src/aruco_detector_yj_pkg_2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_detector_yj_pkg_2 build --build-base /home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/build install --record /home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/install.log --single-version-externally-managed install_data

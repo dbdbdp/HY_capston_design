@@ -1,0 +1,3 @@
+[console_scripts]
+pump_node = pump_control.pump_node:main
+pump_testnode = pump_control.pump_testnode:main

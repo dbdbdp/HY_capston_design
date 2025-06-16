@@ -1,0 +1,9 @@
+[console_scripts]
+encoder_publisher_node = robot_control.encoder_publisher_node:main
+motor_controller_node = robot_control.motor_controller_node:main
+move_distance_node = robot_control.move_distance_node:main
+pid_controller_node = robot_control.pid_controller_node:main
+scissor_lift_controller = robot_control.scissor_lift_controller:main
+teleop_keyboard_node = robot_control.teleop_keyboard_node:main
+teleop_keyboard_node2 = robot_control.teleop_keyboard_node2:main
+teleop_keyboard_node4 = robot_control.teleop_keyboard_node4:main

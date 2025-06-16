@@ -1,0 +1,19 @@
+[2.746s] Invoking command in '/home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/build --no-deps symlink_data --force
+[3.400s] running develop
+[3.750s] running egg_info
+[3.784s] writing aruco_detector_yj_pkg_2.egg-info/PKG-INFO
+[3.786s] writing dependency_links to aruco_detector_yj_pkg_2.egg-info/dependency_links.txt
+[3.789s] writing entry points to aruco_detector_yj_pkg_2.egg-info/entry_points.txt
+[3.790s] writing requirements to aruco_detector_yj_pkg_2.egg-info/requires.txt
+[3.791s] writing top-level names to aruco_detector_yj_pkg_2.egg-info/top_level.txt
+[3.857s] reading manifest file 'aruco_detector_yj_pkg_2.egg-info/SOURCES.txt'
+[3.858s] writing manifest file 'aruco_detector_yj_pkg_2.egg-info/SOURCES.txt'
+[3.895s] running build_ext
+[3.895s] Creating /home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib/python3.12/site-packages/aruco-detector-yj-pkg-2.egg-link (link to .)
+[3.896s] Installing aruco_detector_yj_node script to /home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib/aruco_detector_yj_pkg_2
+[3.897s] 
+[3.898s] Installed /home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2
+[3.899s] running symlink_data
+[3.899s] symbolically linking /home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/resource/aruco_detector_yj_pkg_2 -> /home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/share/ament_index/resource_index/packages
+[3.899s] symbolically linking /home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/package.xml -> /home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/share/aruco_detector_yj_pkg_2
+[4.153s] Invoked command in '/home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teamleafia/ros2_mer/install/aruco_detector_yj_pkg_2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/teamleafia/ros2_mer/build/aruco_detector_yj_pkg_2/build --no-deps symlink_data --force

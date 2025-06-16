@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing cartrash.egg-info/PKG-INFO
+writing dependency_links to cartrash.egg-info/dependency_links.txt
+writing requirements to cartrash.egg-info/requires.txt
+writing top-level names to cartrash.egg-info/top_level.txt
+reading manifest file 'cartrash.egg-info/SOURCES.txt'
+writing manifest file 'cartrash.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/teamleafia/ros2_mer/install/cartrash/lib/python3.12/site-packages/cartrash.egg-link (link to .)
+
+Installed /home/teamleafia/ros2_mer/build/cartrash
+running symlink_data
